@@ -1,0 +1,17 @@
+{
+  "name": "wegointomars-clawd-bot",
+  "version": "1.0.0",
+  "description": "CLAWD — AI project manager for We Goin To Mars",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@octokit/rest": "^20.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
